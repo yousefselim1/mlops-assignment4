@@ -24,7 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Linter Check
-        run: run: pip install flake8 && flake8 train.py --max-line-length=120 --exit-zero
+        run: pip install flake8 && flake8 train.py --max-line-length=120 --exit-zero
 
       - name: Model Dry Test
         run: |
